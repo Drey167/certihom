@@ -38,3 +38,6 @@ certihom/verify_independently.py
 
 # Local/generated data
 data/
+
+# Manuscript remains local until the authors choose to release a preprint.
+paper/
