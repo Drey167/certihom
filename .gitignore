@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.spl
+*.synctex.gz
+paper/main*.pdf
+multiseed.csv
+multiseed.png
+REPRO.md
+logs/
+*.pt
+
+# External benchmark data: do not redistribute
+data/vrnet_2d/*.h5
+
+# Generated Kaggle artifacts; archive separately
+outputs/
+.*_deps/
+
+# Duplicate staged source tree; top-level copies are canonical
+certihom/certihom/
+certihom/examples/
+certihom/kaggle/
+certihom/paper/
+certihom/tests/
+certihom/*.md
+certihom/pyproject.toml
+certihom/requirements.txt
+certihom/conftest.py
+certihom/verify_independently.py
+
+# Local/generated data
+data/

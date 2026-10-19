@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certihom"
+version = "0.1.0"
+description = "Certified two-sided bounds on effective properties from neural admissible fields (Phase 0: 2D conductivity)"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "numpy>=1.26", "scipy>=1.11"]
+
+[tool.setuptools]
+packages = ["certihom"]

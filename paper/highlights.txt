@@ -1,0 +1,10 @@
+Highlights
+
+Certified amortized homogenization: guaranteed two-sided bounds on
+effective tensors at inference cost
+
+- Certified two-sided bounds for unseen microstructures in under 100 ms
+- The guarantee is architectural: unfamiliar inputs widen, never falsify
+- Certificates 2-4x tighter than Voigt-Reuss and sensitive to geometry
+- C1 Bogner-Fox-Schmit Airy potentials certify the elastic lower bound
+- A bandwidth-Nyquist test predicts collocation overfitting before it bites

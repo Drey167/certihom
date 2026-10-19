@@ -1,0 +1,21 @@
+{
+  "title": "certihom: certified amortized homogenization",
+  "description": "<p>Guaranteed two-sided L\u00f6wner bounds on effective conductivity and elasticity tensors, computed from neural trial fields whose admissibility is enforced architecturally. A single trained operator certifies microstructures it has never seen at inference cost. Includes exact-integration certification (Q1 and Bogner-Fox-Schmit C1 elements), a bandwidth-versus-Nyquist criterion for collocation adequacy, three independent reference solvers (finite volume, conforming Q1 FEM, Moulinec-Suquet FFT), a verification suite of 26 tests with machine-precision anchors against closed-form solutions, and seeded scripts that regenerate every number and figure in the accompanying manuscript.</p>",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": [
+    "computational homogenization",
+    "guaranteed bounds",
+    "physics-informed neural networks",
+    "operator learning",
+    "effective properties",
+    "certified design"
+  ],
+  "creators": [
+    {
+      "name": "Mahamud, MD Haffiz",
+      "affiliation": "Rajshahi University of Engineering & Technology (RUET), Rajshahi, Bangladesh"
+    }
+  ],
+  "related_identifiers": []
+}

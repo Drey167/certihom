@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "certihom: certified amortized homogenization"
+abstract: >-
+  Guaranteed two-sided bounds on effective conductivity and elasticity
+  tensors from neural trial fields with architecturally enforced
+  admissibility, certified at inference cost for unseen microstructures.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-08-16"
+authors:
+  - family-names: "Mahamud"
+    given-names: "MD Haffiz"
+    affiliation: "Rajshahi University of Engineering & Technology (RUET), Rajshahi, Bangladesh"
+keywords:
+  - computational homogenization
+  - guaranteed bounds
+  - physics-informed neural networks
+  - operator learning
+preferred-citation:
+  type: article
+  title: "Certified amortized homogenization: guaranteed two-sided bounds on effective tensors at inference cost"
+  journal: "Computer Methods in Applied Mechanics and Engineering"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: "Mahamud"
+      given-names: "MD Haffiz"
